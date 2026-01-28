@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.14",
     "aos": "^2.3.4",
     "axios": "^1.12.2",
-    "emailjs-com": "^3.2.0",
     "framer-motion": "^12.28.1",
     "lucide-react": "^0.546.0",
     "nodemailer": "^7.0.10",
