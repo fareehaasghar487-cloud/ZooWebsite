@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import { AuthContext } from "./context/UserProfile";
+import { AuthContext } from "./context/userProfile";
 import { BackendUrl } from "./BaseUrl";
 import AdminRoute from "./components/protectedRoute";
 
