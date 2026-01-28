@@ -4,7 +4,7 @@ import { FaEnvelope, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { BackendUrl } from "../BaseUrl";
 import { toast } from "react-toastify";
-import { AuthContext } from "../context/UserProfile";
+import { AuthContext } from "../context/userProfile";
 
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);

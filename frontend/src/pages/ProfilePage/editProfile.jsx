@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
-import { AuthContext } from "../../context/UserProfile";
+import { AuthContext } from "../../context/userProfile";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { BackendUrl } from "../../BaseUrl";

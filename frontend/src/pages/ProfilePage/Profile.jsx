@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import { AuthContext } from "../../context/UserProfile";
+import { AuthContext } from "../../context/userProfile";
 import { useNavigate } from "react-router-dom";
 import { BackendUrl } from "../../BaseUrl";
 
