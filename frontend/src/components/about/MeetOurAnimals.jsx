@@ -398,7 +398,6 @@ const MeetOurAnimals = () => {
           </motion.div>
         )}
       </div>
-
       {/* Animal Detail Modal */}
       <AnimatePresence>
         {selectedAnimal && (
