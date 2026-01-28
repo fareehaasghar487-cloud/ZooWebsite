@@ -1,7 +1,7 @@
 import React, { useContext, useState, useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaPaw, FaSignInAlt, FaSignOutAlt, FaUser, FaUserCog } from "react-icons/fa";
-import { AuthContext } from "../../context/UserProfile";
+import { AuthContext } from "../../context/userProfile";
 
 const Navbar = () => {
   const { user, logout } = useContext(AuthContext);
