@@ -117,7 +117,7 @@ function App() {
       ],
     },
     { path: "/login", element: <LoginPage /> },
-    { path: "/signup", element: <Signup /> },
+    { path: "/Signup", element: <Signup /> },
     { path: "/verify-otp", element: <VerifyOtp /> },
     { path: "/forget-password", element: <ForgotPassword /> },
     { path: "/reset-password", element: <ResetPassword /> },
