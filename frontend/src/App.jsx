@@ -33,7 +33,7 @@ import Profile from "./pages/ProfilePage/Profile";
 import EditProfile from "./pages/ProfilePage/editProfile";
 import VerifyOtp from "./pages/VerifyOtp";
 import ForgotPassword from "./pages/forgetPassword";
-import ResetPassword from "./pages/resetPassword";
+import ResetPassword from "./pages/ResetPassword";
 
 // ---------------- Layouts ----------------
 const MainLayout = () => (
