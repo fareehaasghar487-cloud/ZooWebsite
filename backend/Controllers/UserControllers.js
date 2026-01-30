@@ -5,7 +5,7 @@ import sendMail from "../middleWare/sendMail.js";
 import { generateotp } from "../middleWare/generateotp.js";
 
 // Signup API
-export const signup = async (req, res) => {
+export const Signup = async (req, res) => {
   try {
     const { name, email, password } = req.body;
 

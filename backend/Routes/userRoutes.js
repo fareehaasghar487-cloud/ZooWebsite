@@ -9,7 +9,7 @@ import {
   logout,
   myProfile,
   restPassword,
-  signup,
+  Signup,
   updateProfile,
   updateUserRole,
   verifyUser,
@@ -26,7 +26,7 @@ router.patch("/role/:id", LoginRequired, AdminAccess, updateUserRole);
 router.get("/count/users", LoginRequired, AdminAccess, getUsersCount);
 
 // Routes that anyone can access (login or signup)
-router.post("/create-user", signup);
+router.post("/create-user", Signup);
 router.post("/login", login);
 router.post("/verify-user", verifyUser);
 router.post("/forget-Password", forgetPassword);
